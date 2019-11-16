@@ -1,105 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <title>Edit Details</title>
+    <title>Profile cards</title>
 </head>
+
 <body>
-    
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-<!--card-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a href="" class="navbar-brand"><img src="../images/smlogo.jpg" class="mx-auto d-block image-fluid" alt=""></a>
         <a href="" class="navbar-brand">Travel Freak</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#cd01"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-end" id="cd01">
             <ul class="navbar-nav">
-                        
                 <li class="nav-item"><a href="../index.html" class="nav-link disable">Home</a>  </li>
                 <li class="nav-item"><a href=""data-toggle="modal" data-target="#loginModalMoreContent"class="nav-link">Log In</a>  </li>
                 <li class="nav-item "><a href="driver_reg.html" class="nav-link">Register</a>  </li>
                 <li class="nav-item"><a href="" class="nav-link">Forum</a>  </li>
                 <li class="nav-item"><a href="../map.html" class="nav-link">Tourist Map</a>  </li>
-                <li class="nav-item active"><a href="" class="nav-link">Driver</a>  </li>
-                        
-                        
-                       
+                <li class="nav-item active"><a href="" class="nav-link">Driver</a>  </li>       
             </ul>
-    
         </div>
-        
-    
-</nav>
+    </nav>
 
-<div>  
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        
-        <a href="" class="navbar-brand">Drivers</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#cd01"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse justify-content-end" id="cd01">
+    <div>  
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+            <a href="" class="navbar-brand">Drivers</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#cd01"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-end" id="cd01">
                 <ul class="navbar-nav">
-                        
                     <li class="nav-item active"><a href="" class="nav-link disable">My Profile</a>  </li>
                     <li class="nav-item"><a href="driver_edit.html" class="nav-link">Edit Details</a>  </li>
                     <li class="nav-item"><a href="driver_notification.html" class="nav-link">Notifications</a>  </li>
                     <li class="nav-item "><a href="driver_view_profile.html" class="nav-link">View</a>  </li>         
                 </ul>
-		</div>
-		
-    </nav>
-</div>
-<br><br>
-<div class="card-deck">
-<div class="card"  bg-secondary text-white style="width:400px">
-    <img class="card-img-top" src="../img/atharva.jpg" alt="Card image" style="width:100%" >
-    <div class="card-body">
-        <h4 class="card-title">Atharva Murali</h4>
-        <p class="card-text">5 years of experience</p>
-        <a href="driver_view_profile.html" class="btn btn-primary stretched-link">See Profile</a>
+            </div>
+            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">
+                                <i class="fas fa-search fa-sm"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
     </div>
-</div>
+    <br><br>
+        
+    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+        <div class="input-group">
+            <input type="text" class="form-control bg-light border-0 small" placeholder="Search " aria-label="Search" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search fa-sm"></i>
+                </button>
+            </div>
+        </div>
+    </form>
 
-<div class="card"  bg-secondary text-white style="width:400px">
-        <img class="card-img-top" src="../img/wijesekara.jpg" alt="Card image" style="width:100%">
-        <div class="card-body">
-            <h4 class="card-title">Madhavan</h4>
-            <p class="card-text">2 years of experience</p>
-            <a href="driver_view_profile.html" class="btn btn-primary stretched-link">See Profile</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 py-2">
+                <div class="card text-white bg-primary">
+                    <img class="img-thumbnail" src="../img/atharva.jpg" alt="Card image" style="width:100%" >
+                    <div class="card-body">
+                        <h4 class="card-title">Atharva Murali</h4>
+                        <p class="card-text">5 years of experience</p>
+                        <a href="driver_view_profile.html" class="btn btn-primary stretched-link">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 py-2">
+                <div class="card text-white bg-primary">
+                    <img class="img-thumbnail" src="../img/wijesekara.jpg" alt="Card image" style="width:100%" >
+                    <div class="card-body">
+                        <h4 class="card-title">Madhavan</h4>
+                        <p class="card-text">2 years of experience</p>
+                        <a href="driver_view_profile.html" class="btn btn-primary stretched-link">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 py-2">
+                <div class="card text-white bg-primary">
+                    <img class="img-thumbnail" src="../img/micheal.webp" alt="Card image" style="width:100%" >
+                    <div class="card-body">
+                        <h4 class="card-title">Mahesh</h4>
+                        <p class="card-text">3 years of experience</p>
+                        <a href="driver_view_profile.html" class="btn btn-primary stretched-link">See Profile</a>
+                    </div>                   
+                </div>
+            </div>
         </div>
-</div>
-<div class="card"  bg-secondary text-white style="width:400px">
-        <img class="card-img-top" src="../img/micheal.webp" alt="Card image" style="width:100%">
-        <div class="card-body">
-            <h4 class="card-title">Mahesh</h4>
-            <p class="card-text">3 years of experience</p>
-            <a href="driver_view_profile.html" class="btn btn-primary stretched-link">See Profile</a>
-        </div>
-</div>
-</div>
+    </div>
+   
 </body>
 </html>
