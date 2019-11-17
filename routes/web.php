@@ -72,5 +72,16 @@ Route::group(['middleware' => ['auth','gud']], function(){
 });
 
 
+Route::get('/serviceprovider/drveditdetails', function () {
+    return view('serviceprovider.drvedit');
+});
+
+Route::get('/serviceprovider/gudeditdetails', function () {
+    return view('serviceprovider.gudedit');
+});
+
+Route::get('/serviceprovider/eqpeditdetails', function () {
+    return view('serviceprovider.eqpedit');
+});
 
 
