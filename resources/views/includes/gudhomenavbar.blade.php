@@ -1,7 +1,7 @@
     
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
 <div class="container">
-        <a href="" class="navbar-brand">Driver details</a>
+        <a href="" class="navbar-brand">Guide details</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#cd01"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-end" id="cd01">
                 <ul class="navbar-nav">

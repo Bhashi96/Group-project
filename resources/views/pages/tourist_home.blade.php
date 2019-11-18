@@ -2,7 +2,7 @@
 
 @section('content')
 @csrf
-@include('includes.home.banner')
+@include('includes.user_home.user_home_banner')
 <br>
 
 @include('includes.user_home.profile_container')
