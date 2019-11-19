@@ -2,8 +2,9 @@
 
 
 @section('content')
-@include('includes.home.banner')
+
 @include('includes.home.container')
+@include('includes.home.banner')
 <br>
 
 @include('includes.home.container2')

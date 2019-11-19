@@ -31,7 +31,7 @@
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
+                            <!--Validations for front end  Form validation-->
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -81,20 +81,7 @@
 
                        
                         
-                        <div class="form-group row">
-                            <label for="passport" class="col-md-4 col-form-label text-md-right">{{ __('Passport Id') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="passport" type="text" class="form-control @error('passport') is-invalid @enderror" name="passport" value="{{ old('passport') }}" required autocomplete="city" autofocus>
-
-                                @error('passport')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
+                        
                       <div class="form-group row">
                            
 

@@ -1,5 +1,5 @@
 <div class="container mt-3">
-        <p class="lead text-center mt-5">Announcements</p>
+       <!-- <p class="lead text-center mt-5">Announcements</p>-->
 	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
 		<ol class="carousel-indicators">
       		<li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
@@ -9,7 +9,8 @@
     	</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="/img/autumn-1246856_1280.jpg" class="d-block w-100" alt="...">
+			<img src="/img/hiking-1246836_1280.jpg" class="d-block w-100" alt="...">
+				
 				<div class="carousel-caption">
           			<h5>First slide label</h5>
           			<p></p>
@@ -23,7 +24,7 @@
         		</div>
 			</div>
 			<div class="carousel-item">
-				<img src="/img/hiking-1246836_1280.jpg" class="d-block w-100" alt="...">
+			<img src="/img/autumn-1246856_1280.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption">
           			<h5>Third slide label</h5>
           			<p></p>
@@ -47,6 +48,6 @@
 		</a>
 	</div>
 	
- 	<p class="lead text-center mt-5"></p>MOST POPULAR PLACES.
+ 	
 </div>
 </div>

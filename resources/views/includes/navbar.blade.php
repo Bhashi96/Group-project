@@ -13,7 +13,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a href="/" class="nav-link disable">Home</a>  </li>
+                    <li class="nav-item "><a href="/" class="nav-link disable">Home</a>  </li>
                     <li class="nav-item"><a href="/forum" class="nav-link">Forum</a>  </li>
                     <li class="nav-item"><a href="/map" class="nav-link">Tourist Map</a>  </li>
                     <li class="nav-item"><a href="/contact" class="nav-link">About Us</a>  </li>

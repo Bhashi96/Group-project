@@ -1,3 +1,4 @@
+<div class="container">
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
            
@@ -9,4 +10,5 @@
         <h1 class="text-center lead">You will enjoy these places...!</h1>
         
     </div>
+</div>
 </div>

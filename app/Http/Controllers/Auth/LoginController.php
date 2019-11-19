@@ -25,7 +25,8 @@ class LoginController extends Controller
      *
      * @var string
      */
-   // protected $redirectTo = '/home';
+    
+   /*redirect pages after succesfully login*/
     protected function redirectTo()
     {
         if(Auth::user()->user_type=='gud'){

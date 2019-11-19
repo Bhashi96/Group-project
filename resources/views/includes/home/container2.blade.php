@@ -1,13 +1,15 @@
 <div class="container mt-3">
-
+<p class="lead text-center mt-5">Top places you must visit</p>.
+          <!-- gangaramaya card-->
         <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3"><!--devided to 1 raw 12 columns -->
+
                 <p class="text-center lead">Gangaramaya Temple</p>
                 <img src="/images/ganga1.jpg" class="mx-auto d-block image-fluid" alt="">
                 <br>
                 <p class="text-center" >Gangaramaya is one of the oldest & beautiful Buddhist temples located in centre of Colombo.It was
                     started by the famous scholar monk Hikkaduwe Sri Sumangala Nayaka Thera in the late 19th Century. </p>
-            </div><!--gangaramaya-->
+            </div><!-- info anout gangaramaya-->
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
                     <p class="text-center lead">Dambulla Temple</p>
